@@ -1,0 +1,109 @@
+1. Git Hub - 18
+2. Linux Web server - 6
+3. Programming foundation with Python - 36
+http://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/
+ a. watch youtube videos 
+4. Build a data driven web app using python - 18
+6. Django -
+Tutorial - https://docs.djangoproject.com/en/1.8/intro/tutorial01/
+
+http://www.pluralsight.com/courses/django-fundamentals - 3 Hours
+https://thinkster.io/django-angularjs-tutorial - 3 days
+
+
+
+0. Intro to Statistics
+
+https://www.udacity.com/course/intro-to-statistics--st101
+
+
+48 hours.
+
+
+000. Full Stack foundation
+
+https://www.udacity.com/course/progress#!/c-ud088
+
+00. Configureing Linux webserver
+
+https://www.udacity.com/course/configuring-linux-web-servers--ud299
+
+6 hours.
+
+
+1. Git and Git Hub
+
+https://www.udacity.com/course/how-to-use-git-and-github--ud775
+
+18 hours 
+
+2. Intro to Computer Science
+Search engine & Social Network
+https://www.udacity.com/course/intro-to-computer-science--cs101
+72 hours
+
+3. Intro to Relational Databases
+https://www.udacity.com/course/intro-to-relational-databases--ud197
+24 hours
+
+4. Build a data driven web app using python
+
+lession 3 cover web framworks.
+
+https://www.udacity.com/course/full-stack-foundations--ud088
+
+18 hours.
+
+5. Programming foundation with python. Learn OOP
+
+https://www.udacity.com/course/programming-foundations-with-python--ud036
+
+36 hours.
+
+6. Intro to HTML and CSS
+
+https://www.udacity.com/course/intro-to-html-and-css--ud304
+
+18 hours.
+
+7. Authentication & Authorization
+Implementing Web Security with OAuth 2.0
+
+https://www.udacity.com/course/authentication-authorization-oauth--ud330
+
+12 hours.
+
+8. Developing Scalable Apps in Python
+with Google App Engine
+
+https://www.udacity.com/course/developing-scalable-apps-in-python--ud858
+
+36 hours.
+9. Web Development - How to build a Blog
+https://www.udacity.com/course/web-development--cs253
+72 hours.
+
+10. Intro to JQuery
+https://www.udacity.com/course/intro-to-jquery--ud245
+6 hours.
+
+11. Java Script basics.
+https://www.udacity.com/course/javascript-basics--ud804
+18 hours.
+
+12.Intro to Ajax
+ 6 hours.
+
+13. Hadoop and map reduce
+
+https://www.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617
+
+24 hours.
+
+14. Data wrangling using mongoDB
+
+https://www.udacity.com/course/data-wrangling-with-mongodb--ud032
+48 hours.
+
+15. 
+
