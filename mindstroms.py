@@ -1,4 +1,4 @@
-__author__ =  "Gangadhar Mylapuram"
+__author__ =  "Gangadhar M"
 
 #import turtle
 from turtle import Turtle
