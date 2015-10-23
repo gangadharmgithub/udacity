@@ -1,0 +1,33 @@
+Working directory 
+
+Staging area
+
+Repository 
+  - commits
+  
+
+git init - create an empty repository.
+
+git diff 
+
+git diff --staged
+
+git log --stats
+
+git diff commit1 commit2
+
+git branch
+
+git branch <new-branch>
+git checkout <new-branch>
+(or) git checkout -b <new_branch>
+
+git add
+
+git status
+
+git rm --cached <file-name> to remove changes of file from staging area
+git reset --hard to delete changes form staging area.
+git commit - commit changes to staging area to repository.
+git log --graph --oneline master coins
+
