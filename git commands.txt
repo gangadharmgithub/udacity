@@ -6,6 +6,10 @@ Repository
   - commits
   
 
+Git Hub server
+
+git clone https://  
+  
 git init - create an empty repository.
 
 git diff 
@@ -31,3 +35,35 @@ git reset --hard to delete changes form staging area.
 git commit - commit changes to staging area to repository.
 git log --graph --oneline master coins
 
+git gc (non reachable commits will GCed)
+
+git merge master easy-mode --commit
+git show <commit-id> (diff with parent commit)
+
+git branch -d easy-mode (delete branch)
+
+
+
+Remote repository on git hub
+
+Createa Github repository with name udacity and attach your local 
+existing repository to it.
+
+Gangadhar (master) udacity $ git remote remove python-training
+Gangadhar (master) udacity $ git remote add origin https://github.com/gangadhar
+mgithub/udacity.git
+Gangadhar (master) udacity $ git branch -v
+* master 43361c1 GIT commands
+Gangadhar (master) udacity $ git push origin master
+Username for 'https://github.com': gangadhar.m@gmail.com
+Password for 'https://gangadhar.m@gmail.com@github.com':
+Counting objects: 21, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (21/21), 1.08 MiB | 23.00 KiB/s, done.
+Total 21 (delta 4), reused 0 (delta 0)
+To https://github.com/gangadharmgithub/udacity.git
+ * [new branch]      master -> master
+Gangadhar (master) udacity $ git remote -v
+origin  https://github.com/gangadharmgithub/udacity.git (fetch)
+origin  https://github.com/gangadharmgithub/udacity.git (push)
