@@ -1,0 +1,107 @@
+Working directory 
+
+Staging area
+
+Repository 
+  - commits
+  
+
+Git Hub server
+
+git clone https://  
+  
+git init - create an empty repository.
+
+git diff 
+
+git diff --staged
+
+git log --stats
+
+git diff commit1 commit2
+
+git branch
+
+git branch <new-branch>
+git checkout <new-branch>
+(or) git checkout -b <new_branch>
+
+git add
+
+git status
+
+git rm --cached <file-name> to remove changes of file from staging area
+git reset --hard to delete changes form staging area.
+git commit - commit changes to staging area to repository.
+git commit --amend
+git log --graph --oneline master coins
+
+git gc (non reachable commits will GCed)
+
+git merge master easy-mode --commit
+git show <commit-id> (diff with parent commit)
+
+git branch -d easy-mode (delete branch)
+
+
+
+Remote repository on git hub
+
+Createa Github repository with name udacity and attach your local 
+existing repository to it.
+
+Gangadhar (master) udacity $ git remote remove python-training
+Gangadhar (master) udacity $ git remote add origin https://github.com/gangadhar
+mgithub/udacity.git
+Gangadhar (master) udacity $ git branch -v
+* master 43361c1 GIT commands
+
+
+Gangadhar (master) udacity $ git push origin master
+Username for 'https://github.com': gangadhar.m@gmail.com
+Password for 'https://gangadhar.m@gmail.com@github.com':
+Counting objects: 21, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (21/21), 1.08 MiB | 23.00 KiB/s, done.
+Total 21 (delta 4), reused 0 (delta 0)
+To https://github.com/gangadharmgithub/udacity.git
+ * [new branch]      master -> master
+Gangadhar (master) udacity $ git remote -v
+origin  https://github.com/gangadharmgithub/udacity.git (fetch)
+origin  https://github.com/gangadharmgithub/udacity.git (push)
+
+To pull changes from GitHub and rebase the local repository
+ 147  git pull origin master
+ 148  git log
+ 149  git rebase --help
+ 150  git rebase origin/master
+
+
+Some more commands :
+
+ 986  git pull
+  1020  git commit -a -m "Bug 27358 - [GBD]: [feature]: New VSHARE IO path for GBD"
+  1022  git fetch
+ 1023  git branch -vv
+ 1024  git rebase origin/master
+ 1025  git push origin HEAD:refs/for/master
+ 3902  git clone ssh://gangadharm@fpg-git.virident.info:29418/ViridentSolutions .
+ 4143  git log -n1
+ 4147  scp -p -P 29418 gangadharm@fpg-git.virident.info:hooks/commit-msg .git/hooks/
+ 4148  git commit --amend
+ 4149  git log -n1
+ 4150  git show
+ 4153  git config  --global alias.st status
+ 4157  git commit -m "Bug 27341 - [GBD]: Init failure after safe shutdown of driver"
+ 4158  git log -n1
+ 4160  git format-patch -n1 (Generate last one patch)
+ 4162  git st
+ 4163  git commit -m "Bug 27330 - [GBD]: Commit nio re-use issue"
+ 4173  git push origin HEAD:refs/for/master
+ 4185  git format-patch -n3
+ git reset --hard df802a9753609d429af2679ba31ba4fe9bb0c4a3
+ 
+ git am 0003-Bug-27330-GBD-Commit-nio-re-use-issue.patch (to apply the patch that is 
+ collected from format-patch having change id) (applies the patch and commits it)
+ 

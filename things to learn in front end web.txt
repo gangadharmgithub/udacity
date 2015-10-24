@@ -1,6 +1,11 @@
 1. Git Hub - 18
 2. Linux Web server - 6
 3. Programming foundation with Python - 36
+
+http://tdc-www.harvard.edu/Python.pdf
+https://www.codecademy.com/tracks/python
+https://developers.google.com/edu/python/introduction?hl=en
+https://www.microsoftvirtualacademy.com/en-us/training-courses/introduction-to-programming-with-python-8360?l=lqhuMxFz_8904984382
 http://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/
  a. watch youtube videos 
 4. Build a data driven web app using python - 18
