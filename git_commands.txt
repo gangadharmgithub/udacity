@@ -4,7 +4,6 @@ Staging area
 
 Repository 
   - commits
-  
 
 Git Hub server
 
